@@ -1,0 +1,11 @@
+thresholds:
+  z_score: 3.0
+  rate_multiplier: 5
+  error_multiplier: 3
+  window_seconds: 60
+  baseline_minutes: 30
+
+slack:
+  webhook_url: ""
+
+log_path: "/var/log/nginx/hng-access.log"
